@@ -1,0 +1,26 @@
+.slider__element {
+    display: inline-flex !important;
+    gap: 10px;
+    align-items: center;
+    justify-content:space-around;
+    padding:10px;
+    margin: 0 5px 0 5px;
+    min-width: 0;
+    color:black;
+    text-decoration: none;
+    border-radius: 10px;
+    opacity: 0.4;
+    transition: all 0.5s ease-out;
+}
+
+.slider__element:hover {
+    background-color:rgb(250, 246, 241);
+    box-shadow: 5px 5px 7px lightgray;
+    opacity: 1;
+}
+
+.slick-slide {
+    margin: 5px 20px 5px 20px; 
+}
+
+
